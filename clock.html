@@ -1,0 +1,38 @@
+
+
+<style>
+
+#time{ color: red;
+
+	font-family: sans-serif;
+
+
+	margin: 30%;
+
+
+}
+
+
+</style>
+
+
+<h1 id ="time">  </h1>
+
+<script>
+
+
+// write a javascript program that prints the current time 
+
+var today = new Date();
+
+var hourNow = today.getHours() + " : " + today.getMinutes()+ " : " + today.getSeconds();
+
+
+
+// console.log(hourNow);
+
+document.getElementById("time").innerHTML =  "clock for Sonia -" + hourNow;
+
+
+
+</script>
